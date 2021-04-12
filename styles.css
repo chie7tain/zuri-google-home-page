@@ -7,3 +7,35 @@
 body{
   font-family: 'Roboto', sans-serif;
 }
+
+/* styles for header */
+.logo{
+  width:100px;
+}
+.navigation-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "nav-bar other-nav-bar";
+  border:1px solid gold;
+
+}
+.nav-bar{
+  grid-area: nav-bar;
+  display:none;
+}
+.other-links-container{
+  grid-area: other-nav-bar;
+  display:flex;
+  border:1px solid gray;
+  justify-self: flex-end;
+}
+.other-link{
+  list-style: none;
+}
+.other-link > a{
+  text-decoration: none;
+}
+.google-apps-icon,.google-user-icon{
+  width:35px;
+}
+/* end of styles for header */

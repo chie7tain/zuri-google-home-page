@@ -20,7 +20,7 @@
   <body>
     <!-- header -->
     <header>
-      <nav>
+      <nav class="navigation-container">
         <div class="nav-bar">
           <div class="logo-container">
             <img src="./assets/google-logo.png" alt="Google logo" class="logo">
@@ -88,17 +88,18 @@
             </a></li>
           </ul>
         </div>
+
         <ul class="other-links-container">
-          <li><a href="#" class="other-link">Gmail</a></li>
-          <li><a href="#" class="other-link">Images</a></li>
-          <li><a href="#" class="other-link">
+          <li class="other-link"><a href="#" >Gmail</a></li>
+          <li class="other-link"><a href="#" >Images</a></li>
+          <li class="other-link"><a href="#" >
             <span class="other-link-icon">
-              <img src="./assets/google-apps-icon.png" alt="google apps icon">
+              <img class="google-apps-icon" src="./assets/google-apps-icon.png" alt="google apps icon">
             </span>
           </a></li>
           <li><a href="#" class="other-link">
             <span class="other-link-icon user-icon-container">
-              <img src="./assets/google-user-icon.png" alt="google user icon">
+              <img class="google-user-icon" src="./assets/google-user-icon.png" alt="google user icon">
             </span>
           </a></li>
         </ul>
@@ -145,7 +146,24 @@
     <!-- end of main container -->
     <!-- footer container-->
     <footer>
-      <div class="country-location-container"></div>
+      <div class="country-location-container"></div>e
+      <ul class="footer-links-container">
+        <div class="left-links-container">
+          <li class="footer-link"><a href="">About</a></li>
+          <li class="footer-link"><a href="">Advertising</a></li>
+          <li class="footer-link"><a href="">Business</a></li>
+          <li class="footer-link"><a href="">How Search Works</a></li>
+        </div>
+        <div class="enviroment-tag-container">
+          <i class="fas fa-leaf"></i>
+          <li class="footer-link"><a href="">Carbon neutral since 2007</a></li>
+        </div>
+        <div class="right-links-container">
+          <li class="footer-link"><a href="">Privacy</a></li>
+          <li class="footer-link"><a href="">Terms</a></li>
+          <li class="footer-link"><a href="">Settings</a></li>
+        </div>
+      </ul>
     </footer>
     <!-- end of footer container -->
     <script src="./app.js"></script>

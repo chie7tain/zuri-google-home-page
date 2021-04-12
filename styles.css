@@ -63,7 +63,7 @@ header{
 .main-container{
   display:flex;
   justify-content: center;
-  height: 77vh;
+  height: 76vh;
   /* align-content: center; */
 }
 .main-container-center{
@@ -188,7 +188,7 @@ align-items: center;
 /* end of styles for main container */
 /* styles for footer */
 footer{
-  /* height: 10vh; */
+  height: 10vh;
   /* padding:20px 40px; */
   background-color: var(--footer-background-color);
 }

@@ -13,6 +13,18 @@
   --language-font-color:#1a0dab;
   --footer-background-color:#f2f2f2;
   --footer-divide:#d3caca9c;
+    --background:#304353;
+  --scrollBackground:#183750;
+  --linkBackground:#fff;
+  --borderRadius:4px;
+  --linkColor:#88949B;
+  --logoColor:#bcc3c7;
+  --mainTransition:all 0.2s ease-in;
+  --mainSpacing:0.1rem;
+  --mainBoxshadow:0 0 20px 0 rgba(46,61,73,.15);
+  --heroBtnBackground:#E44C65;
+  --heroBackground:#f0f0f0;
+  --silver:#A6A5AA;
 
 }
 body{

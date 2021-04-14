@@ -23,11 +23,25 @@ header{
   grid-area: nav-bar;
   display:none;
 }
+.nav-links-container{
+  display:none;
+}
 .other-links-container{
   grid-area: other-nav-bar;
   display:flex;
   justify-self: flex-end;
   align-items:center;
+}
+.gmail-images-container{
+  display:flex;
+}
+.all-link{
+  display: none;
+}
+.images{
+  text-transform: lowercase;
+}
+.gmail-images-container > .other-link{
 
 }
 .other-link{
@@ -210,15 +224,12 @@ footer{
   align-items: center;
   align-content: center;
   justify-items:auto;
-  /* column-gap: 10px; */
   background-color: var(--footer-background-color);
   height:100%;
-  border:1px solid;
 }
 .left-links-container{
   display: flex;
   grid-area:left-links;
-  border:1px solid;
 }
 .footer-link{
   list-style: none;
@@ -234,7 +245,6 @@ footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  border:1px solid;
 }
 .leaf-icon-container{
   width:20px;
